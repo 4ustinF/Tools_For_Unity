@@ -19,7 +19,7 @@ How to use:
 2.) Provide a follow transform for the minimap to follow (if needed)
 3.) Adjust all that you need in the EasyMiniMapManager component
 
-Point of interest (P.O.I)
+Point of interest (POI)
 1.) Attach EasyMiniMapPOI to the gameObject you want to be a POI
 2.) Provide a sprite to be displayed on the minimap
 3.) Tweak anything you may need using the transform/spriteRenderer component 
