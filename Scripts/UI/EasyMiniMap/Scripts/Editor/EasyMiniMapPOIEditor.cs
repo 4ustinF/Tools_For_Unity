@@ -17,6 +17,7 @@ using UnityEngine;
 /// Editor script that attaches the SpriteRenderer component to the SpriteRenderer property.
 /// </summary>
 
+#if UNITY_EDITOR
 [CustomEditor(typeof(EasyMiniMapPOI))] // Replace 'MyComponent' with the name of your script
 public class EasyMiniMapPOIEditor : Editor
 {
@@ -38,3 +39,4 @@ public class EasyMiniMapPOIEditor : Editor
         DrawDefaultInspector();
     }
 }
+#endif

@@ -18,6 +18,7 @@ using UnityEngine;
 /// You can find it in the editor under "Edit/Create Parent for Selected"
 /// </summary>
 
+#if UNITY_EDITOR
 public class CreateParent : MonoBehaviour
 {
     private string _parentName = "New Parent";
@@ -50,3 +51,4 @@ public class CreateParent : MonoBehaviour
         }
     }
 }
+#endif
