@@ -23,7 +23,7 @@ public class CreateParent : MonoBehaviour
 {
     private string _parentName = "New Parent";
 
-    [MenuItem("Edit/Create Parent for Selected")]
+    [MenuItem("External/Create Parent for Selected")]
     static private void CreateParentForSelected()
     {
         // Early return if no objects are selected
