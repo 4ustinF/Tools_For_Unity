@@ -14,11 +14,10 @@ using UnityEngine;
 // WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 /// <summary>
+/// Tested on Unity Version: 2020.3.18f1
 /// AnchorsToCorners() is a method that adjusts the anchors of a selected RectTransform based on its offset and the size of its parent RectTransform. 
 /// This operation is commonly used in Unity UI to maintain consistent positioning and scaling of UI elements when the parent container is resized.
-/// </summary>
-
-/// <summary>
+/// 
 /// CornersToAnchors() is a method that resets the offset values of a selected RectTransform, effectively aligning it with the parent container or resetting any 
 /// positional adjustments made to the transform. This can be useful when you want to ensure consistent positioning or remove any manual adjustments applied to the transform.
 /// </summary>

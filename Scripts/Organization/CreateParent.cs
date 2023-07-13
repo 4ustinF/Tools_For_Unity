@@ -14,6 +14,7 @@ using UnityEngine;
 // WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 /// <summary>
+/// Tested on Unity Version: 2019.1.10f1
 /// This script will parent all game objects selected in the hierarchy to a new empty game object named "New Parent".
 /// You can find it in the editor under "Edit/Create Parent for Selected"
 /// </summary>
